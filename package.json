@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.823.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "fixtures": "./bin/fixtures"
+  }
+}
