@@ -9,6 +9,9 @@
     "serverless-offline": "^6.8.0"
   },
   "scripts": {
+    "dev": "sls offline start",
+    "deploy": "sls deploy",
+    "dynamodb-offline": "sls dynamodb install",
     "fixtures": "./bin/fixtures"
   }
 }
